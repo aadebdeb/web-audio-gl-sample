@@ -73,7 +73,7 @@ clickElem.textContent = 'Click to Start';
 document.body.appendChild(clickElem);
 
 let clicked = false;
-addEventListener('click', async () => {
+addEventListener('tap', async () => {
   if (clicked) return;
   clicked = true;
   clickElem.remove();
